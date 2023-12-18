@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <script type="module" src="src/main.js" defer></script>
+  <title>Focus Timer </title>
+</head>
+<body>
+  
+    <div class="app">
+        <div class="toggle-mode">
+          <button id="toggle-mode-button">
+            <i class="ph ph-moon"></i>
+            <i class="ph ph-sun"></i>
+          </button>
+        </div>
+
+      <section class="responsive">
+        <div id="timer">
+          <span id="minutes">25</span>
+          <span>:</span>
+          <span id="seconds">00</span>
+      </div>
+
+          <div id="controls">
+            <button data-action="toggleRunning" class="ph ph-play-circle"></button>
+  
+            <button data-action="toggleRunning" class="ph ph-pause-circle"></button>
+  
+            <button data-action="stop" class="ph ph-stop-circle"></button>
+  
+            <button data-action="setPlus" class="ph ph-plus-circle"></button>
+  
+            <button data-action="setMinus" class="ph ph-minus-circle"></button>
+          </div>
+
+      </section> 
+        
+        
+        <div id="sounds">
+          <button data-action="treeSound" class="ph ph-tree"></button>
+
+          <button data-action="rainSound" class="ph ph-cloud-rain "></button> <br>
+
+          <button data-action="storeSound" class="ph ph-storefront "></button>
+
+          <button data-action="fireSound" class="ph ph-campfire "></button>
+        </div>
+        
+    </div>
+
+</body>
+</html>
