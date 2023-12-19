@@ -9,6 +9,7 @@
 ## Features
 - Light and dark mode
 - Modules ES6
+- Responsive Interface
 
 ## About
 
