@@ -12,3 +12,4 @@
 
 ## About
 
+In this project I learned how to use JavaScript modules, toggle dark and light mode using css variables, DOM and more...
